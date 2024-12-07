@@ -59,7 +59,7 @@ footer {
     border-radius: 15px;
     animation: border-pulse 2s infinite;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    padding: 20px;
+    padding: 10px;
     background-color: rgba(220, 244, 236, 0.8);
     margin: 20px auto;
     max-width: 80%;
@@ -257,8 +257,8 @@ footer {
         border-radius: 10px;
     }
      img {
-        width: 70px;
-        height: 70px;
+        width: 60px;
+        height: 60px;
     }
     .message {
         font-size: 2vw;
@@ -281,7 +281,10 @@ footer {
     .specail-image img{display: none;}
 footer{position: absolute;
     bottom: 0;}
-
+.main-container{
+    border-width: 5px;
+}
+.center-content{margin-bottom:20px ;}
 
 }
 .message {
